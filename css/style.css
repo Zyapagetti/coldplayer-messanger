@@ -10,6 +10,8 @@
 @import "components/user-components.css";
 @import "components/nav-bar.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
+@import "components/splash-screen.css";
 
 /* Sreens */
 @import "screens/login.css";
@@ -17,11 +19,6 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
-
-/* 
-  min-width: 450px;
-  min-height: 800px;
- */
 
 body {
   font-family: "Fira Code", monospace;

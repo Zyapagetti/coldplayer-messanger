@@ -1,0 +1,21 @@
+#no-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(black, var(--custom-blue));
+  color: var(--custom-magenta);
+  text-shadow: var(--custom-text-shadow);
+  z-index: 999;
+}
+
+@media screen and (max-width: 800px) {
+  #no-mobile {
+    display: none;
+  }
+}

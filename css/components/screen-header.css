@@ -1,0 +1,19 @@
+.screen-header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    max-width: 100%;
+    height: 80px;
+    color: var(--custom-magenta);
+    text-shadow: var(--custom-text-shadow);
+  }
+  
+  .screen-header__title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .screen-header__icons span {
+    padding-left: 25px;
+  }
+  

@@ -1,0 +1,107 @@
+/* BigSize */
+.user-component__main {
+  width: clac(100% - 60px);
+  height: 90px;
+  margin: 20px 30px;
+}
+
+.user-component__main .user-component__img {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__main .user-component__img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__main .user-component__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user-component__main .user-component__name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.user-component__main .user-component__state {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--custom-gray);
+}
+
+/* MediumSize */
+.user-component__medium {
+  width: clac(100% - 60px);
+  height: 70px;
+  margin: 18px 30px;
+}
+
+.user-component__medium .user-component__img {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__medium .user-component__img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 18px;
+}
+
+.user-component__medium .user-component__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user-component__medium .user-component__name {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.user-component__medium .user-component__state {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--custom-gray);
+}
+
+/* SmallSize */
+.user-component__small {
+  width: clac(100% - 60px);
+  height: 60px;
+  margin: 10px 30px;
+}
+
+.user-component__small .user-component__img {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__small .user-component__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 16px;
+}
+
+.user-component__small .user-component__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user-component__small .user-component__name {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.user-component__small .user-component__state {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--custom-gray);
+}

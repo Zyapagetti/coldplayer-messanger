@@ -1,0 +1,39 @@
+.verify__banner {
+  position: relative;
+  left: calc(50% - 150px);
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  transition: all 0.25s cubic-bezier(0, 0, 0.26, 1.02);
+}
+
+.verify__banner span {
+  padding: 0 5px;
+}
+
+.verify__banner:hover {
+  cursor: pointer;
+  color: black;
+  background-color: var(--custom-magenta);
+  box-shadow: 0 0 25px var(--custom-magenta);
+}
+
+.channels {
+  overflow: scroll;
+  height: 440px;
+}
+
+.channel__banner {
+  width: clac(100% - 60px);
+  height: 50px;
+  margin: 20px 30px 30px 30px;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--custom-magenta);
+  text-shadow: var(--custom-text-shadow);
+  border-top: 2px solid var(--custom-magenta);
+}

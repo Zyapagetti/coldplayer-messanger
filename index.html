@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/CPLogo.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CP-Login</title>
+  </head>
+  <body>
+    <!-- Top Status Bar -->
+    <div class="status-bar flex-row">
+      <div class="status-bar__carrier flex-row">
+        <span>SKT</span>
+        <i class="fas fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-bar__clock">
+        <div id="clock"></div>
+      </div>
+      <div class="status-bar__battery flex-row">
+        <span>58%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <!-- Top Status Bar -->
+    <!-- Greetings -->
+    <header>
+      <div class="welcome-header">
+        <div class="welcome-header__title">
+          <h1>Welcome to</h1>
+          <h2>Coldplayer</h2>
+        </div>
+        <div class="welcome-header__text">
+          <p>
+            If you have a Coldplayer Account, login in with your Email or Phone
+            number.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Greetings -->
+    <!-- Login Form -->
+    <div class="login-info">
+      <form id="login-form" action="friends.html" method="GET">
+        <input
+          type="text"
+          name="username"
+          placeholder="E-mail or Phonenumber"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          minlength="5"
+          maxlength="20"
+          placeholder="Password"
+          required
+        />
+        <input type="submit" value="Log In" />
+      </form>
+      <!-- Sign-up -->
+      <a
+        id="login-info__sign-up-btn"
+        href="https://www.coldplay.com/"
+        target="_blank"
+      >
+        <button>Sign Up</button>
+      </a>
+      <a
+        id="login-info__find-account-btn"
+        href="https://www.coldplay.com/"
+        target="_blank"
+      >
+        <span>Click Here To Find Coldplayer Account or Password</span>
+      </a>
+    </div>
+    <!-- Login Form -->
+    <!-- Bottom nav btns -->
+    <div class="phone-nav__btns flex-row">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Bottom nav btns -->
+    <!-- Font Awesome v5.15 -->
+    <script
+      src="https://kit.fontawesome.com/c897394cb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome v5.15 -->
+    <!-- JavaScript -->
+    <script src="js/clock.js"></script>
+    <!-- JavaScript -->
+  </body>
+</html>

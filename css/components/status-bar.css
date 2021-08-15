@@ -1,0 +1,48 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: var(--default-body-min-width);
+  color: var(--custom-magenta);
+  text-shadow: var(--custom-text-shadow);
+  background-color: black;
+  z-index: 999;
+}
+
+.status-bar__carrier {
+  padding-left: 10px;
+}
+
+.status-bar__battery {
+  padding-right: 10px;
+}
+
+.status-bar__carrier,
+.status-bar__battery {
+  align-items: center;
+}
+
+.status-bar__carrier span,
+.status-bar__clock,
+.status-bar__battery span {
+  font-size: 1.2rem;
+}
+
+.status-bar__carrier i,
+.status-bar__battery i {
+  padding-left: 8px;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--custom-magenta);
+  background-color: rgba(0, 0, 0, 0);
+}

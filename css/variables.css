@@ -1,0 +1,9 @@
+:root {
+  --test-box-border: 1px solid red;
+  --default-body-min-width: 450px;
+  --custom-blue: #25367c;
+  --custom-gray: #9999aa;
+  --custom-magenta: #ff8ef0;
+  --custom-purple: #875cff;
+  --custom-text-shadow: 0 0 5px var(--custom-magenta);
+}
